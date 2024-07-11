@@ -34,7 +34,6 @@ products.each do |row|
 
   product.update!(
     description: row['description'],
-    # Additional attributes
   )
 end
 
