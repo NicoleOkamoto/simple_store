@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/stympy/faker.git
+  revision: 2b5df1704a574193644fe2f79bed59e47cccb762
+  branch: main
+  specs:
+    faker (3.4.1)
+      i18n (>= 1.8.11, < 2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -306,6 +314,7 @@ DEPENDENCIES
   brakeman
   capybara
   debug
+  faker!
   importmap-rails
   jbuilder
   puma (>= 5.0)
